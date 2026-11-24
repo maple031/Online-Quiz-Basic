@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Practice multiple-choice quizzes across core computer science subjects.">
+    <title>Online Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a class="brand" href="index.html" aria-label="Online Quiz home">
+                <span class="brand-mark" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img">
+                        <path d="M5 3.75h14A2.25 2.25 0 0 1 21.25 6v12A2.25 2.25 0 0 1 19 20.25H5A2.25 2.25 0 0 1 2.75 18V6A2.25 2.25 0 0 1 5 3.75Z"></path>
+                        <path d="m7.25 12 3 3 6.5-7"></path>
+                    </svg>
+                </span>
+                <span>Online Quiz</span>
+            </a>
+
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-menu" aria-label="Open navigation">
+                <span></span><span></span><span></span>
+            </button>
+
+            <div class="nav-menu" id="main-menu">
+                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link" href="subjects.html">Subjects</a>
+                <a class="nav-link" href="#about">About</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <p class="eyebrow"><span></span> Learn. Practice. Improve.</p>
+                    <h1>Test Your Knowledge, <span>One Question at a Time</span></h1>
+                    <p class="hero-description">Build confidence and sharpen your academic skills with focused quizzes across essential computer science subjects.</p>
+                    <a class="button button-primary" href="subjects.html">
+                        Start Quiz
+                        <svg viewBox="0 0 20 20" aria-hidden="true">
+                            <path d="M4 10h11M10.5 5.5 15 10l-4.5 4.5"></path>
+                        </svg>
+                    </a>
+                    <div class="hero-stats" aria-label="Platform highlights">
+                        <div><strong>4</strong><span>Subjects</span></div>
+                        <div><strong>40</strong><span>Questions</span></div>
+                        <div><strong>10</strong><span>Per Quiz</span></div>
+                    </div>
+                </div>
+
+                <div class="hero-visual" aria-label="Online learning illustration">
+                    <div class="visual-ring ring-one"></div>
+                    <div class="visual-ring ring-two"></div>
+                    <div class="exam-card">
+                        <div class="exam-card-header">
+                            <div>
+                                <span class="exam-label">Weekly practice</span>
+                                <strong>Knowledge Check</strong>
+                            </div>
+                            <span class="exam-score">86%</span>
+                        </div>
+                        <div class="progress-track"><span></span></div>
+                        <div class="question-preview">
+                            <span class="question-number">Question 8 of 10</span>
+                            <p>Which key identifies a record uniquely?</p>
+                            <div class="answer-option selected">
+                                <span>A</span>
+                                <div>Primary key</div>
+                            </div>
+                            <div class="answer-option">
+                                <span>B</span>
+                                <div>Foreign key</div>
+                            </div>
+                            <div class="answer-option">
+                                <span>C</span>
+                                <div>Join key</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floating-badge badge-top">
+                        <span class="badge-icon">A+</span>
+                        <div><strong>Great score</strong><small>Keep it up</small></div>
+                    </div>
+                    <div class="floating-badge badge-bottom">
+                        <span class="badge-icon clock-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <circle cx="12" cy="12" r="8"></circle>
+                                <path d="M12 7v5l3 2"></path>
+                            </svg>
+                        </span>
+                        <div><strong>Self-paced</strong><small>Practice anytime</small></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="container about-grid">
+                <div class="section-heading">
+                    <p class="eyebrow"><span></span> About the platform</p>
+                    <h2>Practice smarter with focused learning</h2>
+                </div>
+                <div class="about-copy">
+                    <p>Online Quiz helps students practice core subjects through clear, multiple-choice questions. Choose a subject, complete the quiz, and check your performance to identify topics that need more attention.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <a class="brand footer-brand" href="index.html">
+                <span class="brand-mark" aria-hidden="true">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M5 3.75h14A2.25 2.25 0 0 1 21.25 6v12A2.25 2.25 0 0 1 19 20.25H5A2.25 2.25 0 0 1 2.75 18V6A2.25 2.25 0 0 1 5 3.75Z"></path>
+                        <path d="m7.25 12 3 3 6.5-7"></path>
+                    </svg>
+                </span>
+                <span>Online Quiz</span>
+            </a>
+            <p>&copy; 2026 Online Quiz. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

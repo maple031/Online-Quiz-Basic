@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Online quiz practice interface.">
+    <title>Quiz | Online Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="quiz-page">
+    <header class="quiz-header">
+        <div class="container quiz-header-inner">
+            <a class="brand" href="index.html" aria-label="Online Quiz home">
+                <span class="brand-mark" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img">
+                        <path d="M5 3.75h14A2.25 2.25 0 0 1 21.25 6v12A2.25 2.25 0 0 1 19 20.25H5A2.25 2.25 0 0 1 2.75 18V6A2.25 2.25 0 0 1 5 3.75Z"></path>
+                        <path d="m7.25 12 3 3 6.5-7"></path>
+                    </svg>
+                </span>
+                <span>Online Quiz</span>
+            </a>
+            <div class="quiz-header-status">
+                <span id="quizSubjectHeader">Selected Subject</span>
+                <strong id="progressHeader">Question 1 of 10</strong>
+            </div>
+        </div>
+    </header>
+
+    <main class="quiz-main">
+        <div class="container quiz-layout">
+            <aside class="quiz-sidebar" aria-label="Quiz details and question navigation">
+                <section class="quiz-info-card">
+                    <p class="eyebrow"><span></span> Quiz details</p>
+                    <h1 id="quizSubjectName">Selected Subject</h1>
+                    <div class="quiz-info-grid">
+                        <div>
+                            <strong>10</strong>
+                            <span>Total questions</span>
+                        </div>
+                        <div>
+                            <strong>1</strong>
+                            <span>Mark per question</span>
+                        </div>
+                        <div>
+                            <strong>10</strong>
+                            <span>Total marks</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="question-map-card">
+                    <div class="question-map-heading">
+                        <h2>Questions</h2>
+                        <span id="answeredCount">0 answered</span>
+                    </div>
+                    <div class="question-map" id="questionMap" aria-label="Question navigation"></div>
+                    <div class="question-map-legend">
+                        <span><i class="legend-current"></i>Current</span>
+                        <span><i class="legend-answered"></i>Answered</span>
+                        <span><i class="legend-unanswered"></i>Unanswered</span>
+                    </div>
+                </section>
+            </aside>
+
+            <section class="question-panel" aria-live="polite">
+                <article class="question-card">
+                    <div class="question-card-top">
+                        <span class="question-label" id="questionLabel">Question 1</span>
+                        <span class="question-marks">1 mark</span>
+                    </div>
+                    <h2 id="questionText"></h2>
+                    <div class="quiz-options" id="quizOptions"></div>
+                </article>
+
+                <div class="quiz-actions">
+                    <button class="quiz-nav-button previous-button" id="previousQuestion" type="button">
+                        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M16 10H5M9.5 5.5 5 10l4.5 4.5"></path></svg>
+                        Previous
+                    </button>
+                    <button class="quiz-nav-button next-button" id="nextQuestion" type="button">
+                        Next
+                        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M10.5 5.5 15 10l-4.5 4.5"></path></svg>
+                    </button>
+                </div>
+
+                <div class="submit-row">
+                    <button class="submit-quiz-button" id="submitQuiz" type="button">Submit Quiz</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

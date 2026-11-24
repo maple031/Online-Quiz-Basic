@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Choose a subject for your online quiz.">
+    <title>Choose a Subject | Online Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a class="brand" href="index.html" aria-label="Online Quiz home">
+                <span class="brand-mark" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img">
+                        <path d="M5 3.75h14A2.25 2.25 0 0 1 21.25 6v12A2.25 2.25 0 0 1 19 20.25H5A2.25 2.25 0 0 1 2.75 18V6A2.25 2.25 0 0 1 5 3.75Z"></path>
+                        <path d="m7.25 12 3 3 6.5-7"></path>
+                    </svg>
+                </span>
+                <span>Online Quiz</span>
+            </a>
+
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-menu" aria-label="Open navigation">
+                <span></span><span></span><span></span>
+            </button>
+
+            <div class="nav-menu" id="main-menu">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link active" href="subjects.html">Subjects</a>
+                <a class="nav-link" href="index.html#about">About</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="subjects-section">
+            <div class="container">
+                <div class="subjects-heading">
+                    <p class="eyebrow centered"><span></span> Subject selection <span></span></p>
+                    <h1>Choose Your Subject</h1>
+                    <p>Select a subject and begin a 10-question practice quiz.</p>
+                </div>
+
+                <div class="subject-grid">
+                    <article class="subject-card" data-color="blue">
+                        <div class="subject-icon" aria-hidden="true">
+                            <svg viewBox="0 0 48 48">
+                                <rect x="7" y="10" width="34" height="28" rx="4"></rect>
+                                <rect x="12" y="15" width="24" height="18" rx="2"></rect>
+                                <path d="M19 43h10M24 38v5M16 21h16M16 26h16"></path>
+                            </svg>
+                        </div>
+                        <h2>Computer Fundamentals</h2>
+                        <p>Build a strong foundation in computer hardware, software and core concepts.</p>
+                        <div class="subject-meta">
+                            <span>
+                                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 3.5h12v13H4zM7 7h6M7 10h6M7 13h4"></path></svg>
+                                10 questions
+                            </span>
+                        </div>
+                        <button class="button card-button" type="button" data-subject="Computer Fundamentals">
+                            Start Quiz
+                            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M10.5 5.5 15 10l-4.5 4.5"></path></svg>
+                        </button>
+                    </article>
+
+                    <article class="subject-card" data-color="violet">
+                        <div class="subject-icon" aria-hidden="true">
+                            <svg viewBox="0 0 48 48">
+                                <ellipse cx="24" cy="12" rx="15" ry="6"></ellipse>
+                                <path d="M9 12v10c0 3.3 6.7 6 15 6s15-2.7 15-6V12M9 22v10c0 3.3 6.7 6 15 6s15-2.7 15-6V22"></path>
+                            </svg>
+                        </div>
+                        <h2>DBMS</h2>
+                        <p>Practice database concepts, SQL, normalization and transaction management.</p>
+                        <div class="subject-meta">
+                            <span>
+                                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 3.5h12v13H4zM7 7h6M7 10h6M7 13h4"></path></svg>
+                                10 questions
+                            </span>
+                        </div>
+                        <button class="button card-button" type="button" data-subject="DBMS">
+                            Start Quiz
+                            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M10.5 5.5 15 10l-4.5 4.5"></path></svg>
+                        </button>
+                    </article>
+
+                    <article class="subject-card" data-color="orange">
+                        <div class="subject-icon" aria-hidden="true">
+                            <svg viewBox="0 0 48 48">
+                                <path d="M12 7h24l-3 34-9 3-9-3Z"></path>
+                                <path d="M18 20h12M17 27h13M20 34h8M24 16v22"></path>
+                            </svg>
+                        </div>
+                        <h2>Java</h2>
+                        <p>Test your knowledge of Java syntax, object-oriented concepts and exceptions.</p>
+                        <div class="subject-meta">
+                            <span>
+                                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 3.5h12v13H4zM7 7h6M7 10h6M7 13h4"></path></svg>
+                                10 questions
+                            </span>
+                        </div>
+                        <button class="button card-button" type="button" data-subject="Java">
+                            Start Quiz
+                            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M10.5 5.5 15 10l-4.5 4.5"></path></svg>
+                        </button>
+                    </article>
+
+                    <article class="subject-card" data-color="teal">
+                        <div class="subject-icon" aria-hidden="true">
+                            <svg viewBox="0 0 48 48">
+                                <circle cx="24" cy="24" r="17"></circle>
+                                <ellipse cx="24" cy="24" rx="7" ry="17"></ellipse>
+                                <path d="M7 24h34M10 16h28M10 32h28"></path>
+                            </svg>
+                        </div>
+                        <h2>Web Technology</h2>
+                        <p>Review HTML, CSS, JavaScript and the fundamentals of the web.</p>
+                        <div class="subject-meta">
+                            <span>
+                                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 3.5h12v13H4zM7 7h6M7 10h6M7 13h4"></path></svg>
+                                10 questions
+                            </span>
+                        </div>
+                        <button class="button card-button" type="button" data-subject="Web Technology">
+                            Start Quiz
+                            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M10.5 5.5 15 10l-4.5 4.5"></path></svg>
+                        </button>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <a class="brand footer-brand" href="index.html">
+                <span class="brand-mark" aria-hidden="true">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M5 3.75h14A2.25 2.25 0 0 1 21.25 6v12A2.25 2.25 0 0 1 19 20.25H5A2.25 2.25 0 0 1 2.75 18V6A2.25 2.25 0 0 1 5 3.75Z"></path>
+                        <path d="m7.25 12 3 3 6.5-7"></path>
+                    </svg>
+                </span>
+                <span>Online Quiz</span>
+            </a>
+            <p>&copy; 2026 Online Quiz. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

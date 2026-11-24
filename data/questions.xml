@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <subject name="Computer Fundamentals">
+        <question id="1">
+            <text>What is the brain of a computer?</text>
+            <option id="A">CPU</option>
+            <option id="B">RAM</option>
+            <option id="C">Monitor</option>
+            <option id="D">Keyboard</option>
+            <answer>A</answer>
+        </question>
+        <question id="2">
+            <text>Which unit of memory is the smallest?</text>
+            <option id="A">Byte</option>
+            <option id="B">Bit</option>
+            <option id="C">Kilobyte</option>
+            <option id="D">Megabyte</option>
+            <answer>B</answer>
+        </question>
+        <question id="3">
+            <text>Which device is used to give input to a computer?</text>
+            <option id="A">Printer</option>
+            <option id="B">Monitor</option>
+            <option id="C">Keyboard</option>
+            <option id="D">Speaker</option>
+            <answer>C</answer>
+        </question>
+        <question id="4">
+            <text>What does RAM stand for?</text>
+            <option id="A">Random Access Memory</option>
+            <option id="B">Rapid Application Module</option>
+            <option id="C">Read Allocation Method</option>
+            <option id="D">Remote Access Machine</option>
+            <answer>A</answer>
+        </question>
+        <question id="5">
+            <text>Which of the following is a software component?</text>
+            <option id="A">Mouse</option>
+            <option id="B">Operating system</option>
+            <option id="C">Hard disk</option>
+            <option id="D">Printer</option>
+            <answer>B</answer>
+        </question>
+        <question id="6">
+            <text>Which storage device is generally volatile?</text>
+            <option id="A">RAM</option>
+            <option id="B">Hard disk</option>
+            <option id="C">CD-ROM</option>
+            <option id="D">USB flash drive</option>
+            <answer>A</answer>
+        </question>
+        <question id="7">
+            <text>What is the primary function of an operating system?</text>
+            <option id="A">Manage hardware and software resources</option>
+            <option id="B">Create electrical power</option>
+            <option id="C">Build network cables</option>
+            <option id="D">Print documents only</option>
+            <answer>A</answer>
+        </question>
+        <question id="8">
+            <text>Which device converts digital signals to printed output?</text>
+            <option id="A">Scanner</option>
+            <option id="B">Printer</option>
+            <option id="C">Microphone</option>
+            <option id="D">Webcam</option>
+            <answer>B</answer>
+        </question>
+        <question id="9">
+            <text>How many bits are in one byte?</text>
+            <option id="A">4</option>
+            <option id="B">8</option>
+            <option id="C">16</option>
+            <option id="D">32</option>
+            <answer>B</answer>
+        </question>
+        <question id="10">
+            <text>Which of the following is an example of application software?</text>
+            <option id="A">A word processor</option>
+            <option id="B">A CPU</option>
+            <option id="C">A motherboard</option>
+            <option id="D">A power supply</option>
+            <answer>A</answer>
+        </question>
+    </subject>
+    <subject name="DBMS">
+        <question id="11">
+            <text>What does DBMS stand for?</text>
+            <option id="A">Database Management System</option>
+            <option id="B">Digital Binary Machine Software</option>
+            <option id="C">Data Backup Memory Service</option>
+            <option id="D">Distributed Business Model System</option>
+            <answer>A</answer>
+        </question>
+        <question id="12">
+            <text>Which SQL keyword retrieves data from a database?</text>
+            <option id="A">INSERT</option>
+            <option id="B">SELECT</option>
+            <option id="C">DELETE</option>
+            <option id="D">UPDATE</option>
+            <answer>B</answer>
+        </question>
+        <question id="13">
+            <text>Which constraint uniquely identifies each record in a table?</text>
+            <option id="A">Foreign key</option>
+            <option id="B">Primary key</option>
+            <option id="C">Check constraint</option>
+            <option id="D">Default constraint</option>
+            <answer>B</answer>
+        </question>
+        <question id="14">
+            <text>What is a foreign key used for?</text>
+            <option id="A">To create a table index</option>
+            <option id="B">To link a table to another table</option>
+            <option id="C">To encrypt all table data</option>
+            <option id="D">To sort query results</option>
+            <answer>B</answer>
+        </question>
+        <question id="15">
+            <text>Which normal form removes partial dependency in a relation?</text>
+            <option id="A">First normal form</option>
+            <option id="B">Second normal form</option>
+            <option id="C">Fourth normal form</option>
+            <option id="D">Domain-key normal form</option>
+            <answer>B</answer>
+        </question>
+        <question id="16">
+            <text>Which SQL clause filters rows after grouping?</text>
+            <option id="A">WHERE</option>
+            <option id="B">HAVING</option>
+            <option id="C">ORDER BY</option>
+            <option id="D">GROUP BY</option>
+            <answer>B</answer>
+        </question>
+        <question id="17">
+            <text>Which operation combines rows from two tables using a related column?</text>
+            <option id="A">JOIN</option>
+            <option id="B">UNION</option>
+            <option id="C">PROJECTION</option>
+            <option id="D">SELECTION</option>
+            <answer>A</answer>
+        </question>
+        <question id="18">
+            <text>What is a transaction in a database system?</text>
+            <option id="A">A single SQL keyword</option>
+            <option id="B">A logical unit of database operations</option>
+            <option id="C">A backup file</option>
+            <option id="D">A database table</option>
+            <answer>B</answer>
+        </question>
+        <question id="19">
+            <text>Which property ensures a transaction is all-or-nothing?</text>
+            <option id="A">Atomicity</option>
+            <option id="B">Consistency</option>
+            <option id="C">Isolation</option>
+            <option id="D">Durability</option>
+            <answer>A</answer>
+        </question>
+        <question id="20">
+            <text>Which type of relation is represented by an ER diagram?</text>
+            <option id="A">Entities and relationships</option>
+            <option id="B">Methods and objects</option>
+            <option id="C">Pages and hyperlinks</option>
+            <option id="D">Packets and routers</option>
+            <answer>A</answer>
+        </question>
+    </subject>
+    <subject name="Java">
+        <question id="21">
+            <text>Who developed the Java programming language?</text>
+            <option id="A">James Gosling</option>
+            <option id="B">Dennis Ritchie</option>
+            <option id="C">Bjarne Stroustrup</option>
+            <option id="D">Guido van Rossum</option>
+            <answer>A</answer>
+        </question>
+        <question id="22">
+            <text>Which keyword creates an object in Java?</text>
+            <option id="A">class</option>
+            <option id="B">new</option>
+            <option id="C">object</option>
+            <option id="D">create</option>
+            <answer>B</answer>
+        </question>
+        <question id="23">
+            <text>Which method is the entry point of a Java application?</text>
+            <option id="A">start()</option>
+            <option id="B">run()</option>
+            <option id="C">main()</option>
+            <option id="D">init()</option>
+            <answer>C</answer>
+        </question>
+        <question id="24">
+            <text>Which keyword prevents a class from being inherited?</text>
+            <option id="A">static</option>
+            <option id="B">final</option>
+            <option id="C">abstract</option>
+            <option id="D">synchronized</option>
+            <answer>B</answer>
+        </question>
+        <question id="25">
+            <text>What is method overloading?</text>
+            <option id="A">Multiple methods with the same name and different parameters</option>
+            <option id="B">A method that calls itself repeatedly</option>
+            <option id="C">Hiding a parent method permanently</option>
+            <option id="D">Deleting methods at runtime</option>
+            <answer>A</answer>
+        </question>
+        <question id="26">
+            <text>Which Java class represents a resizable array?</text>
+            <option id="A">HashSet</option>
+            <option id="B">ArrayList</option>
+            <option id="C">LinkedQueue</option>
+            <option id="D">HashMap</option>
+            <answer>B</answer>
+        </question>
+        <question id="27">
+            <text>Which keyword is used to inherit a class in Java?</text>
+            <option id="A">implements</option>
+            <option id="B">extends</option>
+            <option id="C">inherits</option>
+            <option id="D">super</option>
+            <answer>B</answer>
+        </question>
+        <question id="28">
+            <text>Which package is automatically imported in every Java program?</text>
+            <option id="A">java.io</option>
+            <option id="B">java.util</option>
+            <option id="C">java.lang</option>
+            <option id="D">java.net</option>
+            <answer>C</answer>
+        </question>
+        <question id="29">
+            <text>Which exception occurs when a program divides an integer by zero?</text>
+            <option id="A">IOException</option>
+            <option id="B">ArithmeticException</option>
+            <option id="C">NullPointerException</option>
+            <option id="D">ClassNotFoundException</option>
+            <answer>B</answer>
+        </question>
+        <question id="30">
+            <text>Which interface does a class use to support runtime threads in Java?</text>
+            <option id="A">Runnable</option>
+            <option id="B">Serializable</option>
+            <option id="C">Comparable</option>
+            <option id="D">Iterator</option>
+            <answer>A</answer>
+        </question>
+    </subject>
+    <subject name="Web Technology">
+        <question id="31">
+            <text>What does HTML stand for?</text>
+            <option id="A">HyperText Markup Language</option>
+            <option id="B">High Transfer Machine Language</option>
+            <option id="C">Hyperlink and Text Management Logic</option>
+            <option id="D">Home Tool Markup Language</option>
+            <answer>A</answer>
+        </question>
+        <question id="32">
+            <text>Which HTML element contains visible page content?</text>
+            <option id="A">head</option>
+            <option id="B">title</option>
+            <option id="C">body</option>
+            <option id="D">meta</option>
+            <answer>C</answer>
+        </question>
+        <question id="33">
+            <text>Which CSS property changes text color?</text>
+            <option id="A">font-style</option>
+            <option id="B">text-align</option>
+            <option id="C">color</option>
+            <option id="D">background-image</option>
+            <answer>C</answer>
+        </question>
+        <question id="34">
+            <text>Which HTML tag creates a hyperlink?</text>
+            <option id="A">&lt;link&gt;</option>
+            <option id="B">&lt;a&gt;</option>
+            <option id="C">&lt;href&gt;</option>
+            <option id="D">&lt;url&gt;</option>
+            <answer>B</answer>
+        </question>
+        <question id="35">
+            <text>Which JavaScript keyword declares a block-scoped variable?</text>
+            <option id="A">var</option>
+            <option id="B">let</option>
+            <option id="C">define</option>
+            <option id="D">constant</option>
+            <answer>B</answer>
+        </question>
+        <question id="36">
+            <text>What does CSS stand for?</text>
+            <option id="A">Creative Style Sheets</option>
+            <option id="B">Cascading Style Sheets</option>
+            <option id="C">Computer Styled Scripts</option>
+            <option id="D">Coded Site Specifications</option>
+            <answer>B</answer>
+        </question>
+        <question id="37">
+            <text>Which protocol is commonly used to transfer web pages?</text>
+            <option id="A">FTP</option>
+            <option id="B">SMTP</option>
+            <option id="C">HTTP</option>
+            <option id="D">SSH</option>
+            <answer>C</answer>
+        </question>
+        <question id="38">
+            <text>Which HTML attribute provides alternative text for an image?</text>
+            <option id="A">title</option>
+            <option id="B">src</option>
+            <option id="C">alt</option>
+            <option id="D">href</option>
+            <answer>C</answer>
+        </question>
+        <question id="39">
+            <text>Which DOM method finds an element by its ID?</text>
+            <option id="A">querySelectorAll()</option>
+            <option id="B">getElementsByClassName()</option>
+            <option id="C">getElementById()</option>
+            <option id="D">findElement()</option>
+            <answer>C</answer>
+        </question>
+        <question id="40">
+            <text>Which HTTP method is commonly used to submit form data?</text>
+            <option id="A">POST</option>
+            <option id="B">FETCH</option>
+            <option id="C">OPEN</option>
+            <option id="D">LOAD</option>
+            <answer>A</answer>
+        </question>
+    </subject>
+</quiz>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Online quiz result.">
+    <title>Quiz Result | Online Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="result-page">
+    <header class="quiz-header">
+        <div class="container quiz-header-inner">
+            <a class="brand" href="index.html" aria-label="Online Quiz home">
+                <span class="brand-mark" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img">
+                        <path d="M5 3.75h14A2.25 2.25 0 0 1 21.25 6v12A2.25 2.25 0 0 1 19 20.25H5A2.25 2.25 0 0 1 2.75 18V6A2.25 2.25 0 0 1 5 3.75Z"></path>
+                        <path d="m7.25 12 3 3 6.5-7"></path>
+                    </svg>
+                </span>
+                <span>Online Quiz</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="result-main">
+        <div class="container">
+            <section class="result-card" id="validResult">
+                <p class="eyebrow centered"><span></span> Submission complete <span></span></p>
+                <h1>Quiz Completed!</h1>
+                <p class="result-subject" id="resultSubject"></p>
+
+                <div class="score-ring" id="scoreRing">
+                    <div>
+                        <strong id="resultScore">0</strong>
+                        <span>out of 10</span>
+                    </div>
+                </div>
+
+                <p class="performance-message" id="performanceMessage"></p>
+
+                <div class="result-stats">
+                    <div><strong id="correctAnswers">0</strong><span>Correct</span></div>
+                    <div><strong id="wrongAnswers">0</strong><span>Wrong</span></div>
+                    <div><strong id="unansweredQuestions">0</strong><span>Unanswered</span></div>
+                    <div><strong id="resultPercentage">0%</strong><span>Percentage</span></div>
+                </div>
+
+                <div class="result-actions">
+                    <a class="result-button retake-button" href="subjects.html">Retake Quiz</a>
+                    <a class="result-button home-button" href="index.html">Back to Home</a>
+                </div>
+            </section>
+
+            <section class="result-card missing-result" id="missingResult" hidden>
+                <p class="eyebrow centered"><span></span> No result found <span></span></p>
+                <h1>Quiz result unavailable</h1>
+                <p>Please select a subject and complete a quiz before viewing the result page.</p>
+                <div class="result-actions">
+                    <a class="result-button retake-button" href="subjects.html">Choose a Subject</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
